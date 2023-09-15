@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: url('./Assets/background.png') repeat-x 0 0 fixed;
+    background-color: #0C0C0C;
+    height: 100%;
+    width: 100%;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    /* margin-top: 5%; */
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin-top: 6%;
+}
+
+form {
+    margin: auto;
+}
+
+
+input {
+    width: 30rem;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+::placeholder {
+    color: black;
+    font-size: 18px;
+}
+
+
+button {
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+
+.names {
+    background: url('./Assets/background.png') repeat-x 0 0 scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 238, 238);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.info {
+    background: url('./Assets/background.png') repeat-x 0 0 scroll;    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 238, 238);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.basic {
+    background: url('./Assets/background.png') repeat-x 0 0 scroll;    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#goback {
+    background-color: green;
+    border-radius: 14px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#save {
+    background-color: rgba(11, 55, 233, 0.98);
+    border-radius: 14px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.design {
+    /* background-color: white; */
+    border-radius: 25px;
+}
+
+.image{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-bottom: 30%;
+    padding-right: 20px;
+    margin-right: 20px;
+}
