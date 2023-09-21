@@ -1,7 +1,12 @@
-import LoginScreenTemaplte from "./LoginScreenTemplate";
+import React from 'react';
+import LoginScreenTemplate from './LoginScreenTemplate';
 
 const LoginScreen = () => {
-  return <LoginScreenTemaplte />;
-};
+  return (
+    <>
+    <LoginScreenTemplate/>
+    </>
+  )
+}
 
-export default LoginScreen;
+export default LoginScreen

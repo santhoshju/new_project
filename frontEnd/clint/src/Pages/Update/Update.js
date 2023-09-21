@@ -17,7 +17,6 @@ const Update = ({
   validateDateOfBirth,
   isAddressValid,
   validateAddress,
-  updatePutApi,
 }) => {
   const { email } = useParams();
   const Navigate = useNavigate();
@@ -96,14 +95,14 @@ const Update = ({
       console.log("++++++++++");
       console.log(values.email);
       e.preventDefault();
-      updatePutApi(values);
-      // axios
-      //   .put(`http://localhost:5000/api/put/${email}`, values)
-      //   .then((res) => {
-      //     Navigate("/");
-      //     toast.success("Details Updated successfully");
-      //   })
-      //   .catch((err) => console.log(err));
+      
+      axios
+        .put(`http://localhost:5000/api/put/${email}`, values)
+        .then((res) => {
+          Navigate("/");
+          toast.success("Details Updated successfully");
+        })
+        .catch((err) => console.log(err));
     }
   };
 

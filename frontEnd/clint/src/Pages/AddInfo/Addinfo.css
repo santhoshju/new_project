@@ -5,13 +5,13 @@
 
 
 body {
-    background: url('./Assets/background.png') repeat-x 0 0 fixed;
-    background-color: #0C0C0C;
+    /* background-color: #0C0C0C; */
     height: 100%;
     width: 100%;
 }
 
 .whole {
+    background: url('./Assets/background.png') repeat-x 0 0 fixed;
     display: flex;
     justify-content: center;
     align-items: center;

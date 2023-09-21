@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Addinfo from './AddInfo/Addinfo';
-import Update from './Update/Update';
 const Validation = () => {
 
 const [isEmailValid, setIsEmailValid] = useState(true);

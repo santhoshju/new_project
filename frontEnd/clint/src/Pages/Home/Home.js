@@ -11,7 +11,7 @@ const Home = ({data,loadData, deleteEmp}) => {
   }, []);
   
   return (
-    <div style={{}}>
+    <div style={{backgroundImage:'url("./Assets/background.png")'}} >
       {/* <div className="image">
         <img src={Divumlogo} alt="" />
       </div> */}
